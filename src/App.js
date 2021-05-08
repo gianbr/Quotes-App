@@ -21,9 +21,9 @@ const App = () => {
         <div className = "App">
             <div className = "quote">
                 <p>{quotes.text}</p>
-                <p>Autor: {quotes.author}</p>
+                <p>Author: {quotes.author}</p>
                 <div className= "btnContainer">
-                    <button onClick = {getQuote} className= "btn">Apretá acá bb</button>
+                    <button onClick = {getQuote} className= "btn">Next Quote</button>
                 </div>
             </div>
         </div>
